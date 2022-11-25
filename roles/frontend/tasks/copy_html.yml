@@ -5,4 +5,4 @@
 - name: Copy html
   copy: src={{ item }} dest={{ frontend_dest_path }} owner={{default_user}} group={{default_group}} mode=0755
   with_fileglob:
-    - {{ frontend_src_path }}
+    - "{{ frontend_src_path }}"
