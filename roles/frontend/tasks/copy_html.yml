@@ -3,6 +3,6 @@
   copy: src={{ item }} dest={{ frontend_dest_path }} owner={{default_user}} group={{default_group}} mode=0755
 
 - name: Move 
-shell:
-  cmd: |
-    sudo mv /usr/share/nginx/build /usr/share/nginx/html
+  shell:
+    cmd: |
+      sudo mv /usr/share/nginx/build /usr/share/nginx/html
