@@ -1,3 +1,0 @@
-- name: kill java
-  shell:
-    cmd: |

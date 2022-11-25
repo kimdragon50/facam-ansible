@@ -1,0 +1,6 @@
+---
+
+########################
+
+- name: Copy html
+  copy: src={{ frontend_src_path }} dest={{ backend_src_path }} owner={{default_user}} group={{default_group}} mode=0755

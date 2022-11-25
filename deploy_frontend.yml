@@ -5,7 +5,7 @@
     - "vars/all.yml"
 
   roles:
-    - front
+    - frontend
 
 # ansible-playbook deploy_front.yml -i ./hosts --extra-vars "deploy_hosts=app"
 
