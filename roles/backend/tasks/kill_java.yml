@@ -2,6 +2,6 @@
   shell:
     cmd: |
       java_pid=$(pidof java)
-      if [$java_pid] 
-      then kill -9 $java_pid 2>/dev/null
+      if [ $java_pid ] 
+      then kill -9 $java_pid
       fi
