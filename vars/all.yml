@@ -5,4 +5,4 @@ backend_src_path : /var/lib/jenkins/workspace/deploy-backend/facam-backend/targe
 backend_dest_path : /home/ec2-user
 
 frontend_src_path : /var/lib/jenkins/workspace/deploy-frontend/facam-frontend/build
-frontend_dest_path : /usr/share/nginx/html
+frontend_dest_path : /usr/share/nginx
