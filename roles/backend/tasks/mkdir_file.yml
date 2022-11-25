@@ -5,4 +5,5 @@
 - name: mkdir test.txt
   shell:
     cmd: |
+      cd /home/ec2-user
       mkdir /home/ec2-user/test.txt
