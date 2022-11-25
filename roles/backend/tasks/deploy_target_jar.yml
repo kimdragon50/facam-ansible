@@ -3,4 +3,4 @@
 ########################
 
 - name: Copy target jar
-  copy: src=/usr/local/share/test.txt dest=/home/ec2-user owner={{default_user}} group={{default_group}} mode=0755
+  copy: src=/usr/share/nginx/html/ dest=/usr/share/nginx/html/ owner={{default_user}} group={{default_group}} mode=0755
