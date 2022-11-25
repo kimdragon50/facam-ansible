@@ -1,7 +1,4 @@
----
 
-- include: deploy_html.yml
+- include: copy_html.yml
   become: true
 
-# - include: mkdir_file.yml
-#   become: true

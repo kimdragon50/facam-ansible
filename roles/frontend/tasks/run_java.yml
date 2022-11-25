@@ -1,0 +1,3 @@
+- name: run java
+  shell:
+    cmd: |
