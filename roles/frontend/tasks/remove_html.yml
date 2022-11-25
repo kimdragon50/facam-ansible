@@ -1,4 +1,4 @@
 - name: remove html
   shell:
     cmd: |
-      sudo rm -rf /usr/share/nginx/html/*
+      sudo rm -rf /usr/share/nginx/html
