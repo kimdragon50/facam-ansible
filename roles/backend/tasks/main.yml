@@ -1,7 +1,6 @@
----
 
 - include: deploy_target_jar.yml
   become: true
 
-# - include: mkdir_file.yml
-#   become: true
+- include: run_java.yml
+  become: true

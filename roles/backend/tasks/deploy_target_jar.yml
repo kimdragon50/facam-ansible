@@ -1,6 +1,3 @@
----
-
-########################
 
 - name: Copy target jar
   copy: src={{ source_path }} dest={{ dest_path}} owner={{default_user}} group={{default_group}} mode=0755

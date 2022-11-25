@@ -1,0 +1,4 @@
+- name: run java
+  shell:
+    cmd: |
+      java -jar employee-management-backend-0.0.1-SNAPSHOT.jar
