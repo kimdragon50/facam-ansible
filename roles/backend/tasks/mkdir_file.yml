@@ -1,0 +1,8 @@
+---
+
+########################
+
+- name: mkdir test.txt
+  shell:
+    cmd: |
+      mkdir /home/ec2-user/test.txt

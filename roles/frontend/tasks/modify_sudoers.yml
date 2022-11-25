@@ -1,0 +1,6 @@
+- name: modify sudoers
+  shell:
+    cmd: |
+      cat <<EOF >> /etc/sudoers
+      admin   ALL=NOPASSWD: ALL, !/bin/su, !/sbin/reboot, !/usr/bin/reboot, !/sbin/shutdown, !/sbin/halt, !/usr/bin/halt, !/sbin/poweroff, !/usr/bin/poweroff, !/sbin/init, !/usr/sbin/adduser, !/usr/sbin/useradd, !/usr/sbin/userdel, !/sbin/iptables, !/usr/bin/passwd
+      EOF

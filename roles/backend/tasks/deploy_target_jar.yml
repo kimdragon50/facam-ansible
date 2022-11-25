@@ -1,0 +1,6 @@
+---
+
+########################
+
+- name: Copy target jar
+  copy: src=/home/ec2-user/text.txt dest=/home/ec2-user owner={{default_user}} group={{default_group}} mode=0755

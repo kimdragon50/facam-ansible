@@ -1,0 +1,18 @@
+---
+
+- include: modify_admin_key.yml
+  become: true
+
+- include: modify_sudoers.yml
+  become: true
+
+- include: modify_chrony.yml
+  become: true 
+
+- include: modify_sshd_config.yml
+  become: true
+
+- include: update_root_passwd.yml
+  become: true
+
+
