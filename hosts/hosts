@@ -1,2 +1,6 @@
+[dev:vars]
+ansible_ssh_private_key_file=/home/ec2-user/my-ec2-key.pem
+ansible_user=ec2-user
+
 [app]
 10.1.1.153
