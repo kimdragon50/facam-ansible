@@ -1,5 +1,5 @@
-- name: run java
+- name: kill java
   shell:
     cmd: |
       java_pid=$(pidof java)
-      kill -9 $java_pid 
+      kill -9 $java_pid 2>/dev/null
