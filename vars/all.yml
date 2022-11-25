@@ -1,2 +1,4 @@
 default_user : ec2-user
 default_group : ec2-user
+source_path : /var/lib/jenkins/workspace/deploy-backend/facam-backend/target/employee-management-backend-0.0.1-SNAPSHOT.jar
+dest_path : /home/ec2-user

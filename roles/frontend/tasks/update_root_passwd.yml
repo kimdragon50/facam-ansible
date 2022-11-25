@@ -1,5 +1,0 @@
-- name: Update Root Password
-  user:
-    name: root
-    update_password: always
-    password: $6$rounds=656000$J9XEfqHApAyRyYjY$4bBoSrSR28FaYJ4WMmLo4I.5SrhCHTGdhs7a1YFWbIbomqxuYa7chgofbKvhOjTLZbeA3gRwFITV6lNZhQooO0

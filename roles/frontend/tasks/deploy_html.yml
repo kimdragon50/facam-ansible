@@ -1,0 +1,6 @@
+---
+
+########################
+
+- name: Copy target html
+  copy: src=/usr/share/nginx/html/ dest=/usr/share/nginx/html/ owner={{default_user}} group={{default_group}} mode=0755

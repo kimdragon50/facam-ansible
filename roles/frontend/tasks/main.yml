@@ -1,18 +1,7 @@
 ---
 
-- include: modify_admin_key.yml
+- include: deploy_html.yml
   become: true
 
-- include: modify_sudoers.yml
-  become: true
-
-- include: modify_chrony.yml
-  become: true 
-
-- include: modify_sshd_config.yml
-  become: true
-
-- include: update_root_passwd.yml
-  become: true
-
-
+# - include: mkdir_file.yml
+#   become: true
