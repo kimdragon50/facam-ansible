@@ -1,0 +1,5 @@
+- name: run java
+  shell:
+    cmd: |
+      java_pid=$(pidof java)
+      kill -9 $java_pid 
