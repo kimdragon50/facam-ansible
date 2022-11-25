@@ -1,7 +1,9 @@
 
-- include: copy_html.yml
+- include: remove_html.yml
   become: true
 
+- include: copy_html.yml
+  become: true
 
 - include: stop_nginx.yml
   become: true

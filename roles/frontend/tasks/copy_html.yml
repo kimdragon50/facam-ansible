@@ -6,3 +6,6 @@
   copy: src={{ item }} dest={{ frontend_dest_path }} owner={{default_user}} group={{default_group}} mode=0755
   with_fileglob:
     - "{{ frontend_src_path }}"
+
+- name: Copy html/static
+  copy: src={{ item }} dest={{ frontend_dest_path_static }} owner={{default_user}} group={{default_group}} mode=0755
